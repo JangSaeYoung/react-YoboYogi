@@ -15,7 +15,7 @@ function LendmarkItem(props) {
       <Card.Body>
         <Card.Title> {props.name}</Card.Title>
         <Card.Text>{props.description}</Card.Text>
-        <Card.Link href={props.link}>지도 보기</Card.Link>
+        <Card.Link href={props.link}>지도보기</Card.Link>
       </Card.Body>
     </Card>
   );
