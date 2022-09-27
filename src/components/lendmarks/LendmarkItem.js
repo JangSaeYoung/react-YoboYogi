@@ -2,10 +2,6 @@ import Card from "react-bootstrap/Card";
 
 function LendmarkItem(props) {
   return (
-    // <Card className="mt-3 text-center">
-    //   <Card.Body> {props.name}</Card.Body>
-    // </Card>
-
     <Card className="mb-3">
       <Card.Img variant="top" src={props.src} />
       <Card.Body>

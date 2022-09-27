@@ -35,12 +35,6 @@ const lendmark_DATA = [
 
 function LendmarkList(props) {
   return (
-    // <div className=" p-2 pm-10 overflow-scroll">
-    //   {lendmark_DATA.map((lendmark) => (
-    //     <LendmarkItem key={lendmark.id} name={lendmark.name} />
-    //   ))}
-    // </div>
-
     <Row>
       <Col>
         {lendmark_DATA.map((lendmark) => (

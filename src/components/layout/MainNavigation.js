@@ -6,7 +6,7 @@ import "./MainNavigation.css";
 
 function MainNavigation() {
   return (
-    <Navbar bg="light" variant="light" className="fixed-top mb-4">
+    <Navbar bg="light" variant="light" className="fixed-top">
       <Container className="d-flex justify-content-around">
         <Navbar.Brand href="/" className="px-3">
           홈

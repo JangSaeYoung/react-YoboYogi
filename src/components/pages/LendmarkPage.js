@@ -3,6 +3,8 @@ import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import { useState } from "react";
 import LendmarkList from "../lendmarks/LendmarkList";
+import Spot from "../lendmarks/Spot";
+import Refresh from "../lendmarks/Refresh";
 
 function LendmarkPage() {
   const [key, setKey] = useState("one");
@@ -19,10 +21,10 @@ function LendmarkPage() {
           <LendmarkList />
         </Tab>
         <Tab eventKey="two" title="관광">
-          {/* <ScheduleList /> */}
+          <Spot />
         </Tab>
         <Tab eventKey="three" title="휴양지">
-          {/* <ScheduleList /> */}
+          <Refresh />
         </Tab>
         <Tab eventKey="four" title="추가">
           {/* <ScheduleAdd /> */}
