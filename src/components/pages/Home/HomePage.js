@@ -5,7 +5,8 @@ import Card from "react-bootstrap/Card";
 
 function HomePage() {
   return (
-    <Container>
+    <div className="mt-5">
+      <div className="pb-2"></div>
       <Alert variant="success">
         <Alert.Heading>이번 여행은 어디인가요?</Alert.Heading>
         <p>여행때만큼은 평소와 다른 일과를 보내세요!</p>
@@ -25,7 +26,7 @@ function HomePage() {
           <Card.Link href="/schedule">일정 보기</Card.Link>
         </Card.Body>
       </Card>
-    </Container>
+    </div>
   );
 }
 export default HomePage;

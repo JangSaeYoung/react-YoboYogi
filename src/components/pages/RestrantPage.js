@@ -10,25 +10,27 @@ function RestrantPage() {
   const [key, setKey] = useState("one");
 
   return (
-    <Tabs
-      id="controlled-tab-schedule"
-      activeKey={key}
-      onSelect={(k) => setKey(k)}
-      className="mt-5"
-    >
-      <Tab eventKey="one" title="식사류">
-        <RestrantList />
-      </Tab>
-      <Tab eventKey="two" title="간식류">
-        <DesertList />
-      </Tab>
-      <Tab eventKey="three" title="주류">
-        <DrinkList />
-      </Tab>
-      <Tab eventKey="four" title="추가">
-        {/* <ScheduleAdd /> */}
-      </Tab>
-    </Tabs>
+    <div className="pt-3">
+      <Tabs
+        id="controlled-tab-schedule"
+        activeKey={key}
+        onSelect={(k) => setKey(k)}
+        className="mt-5"
+      >
+        <Tab eventKey="one" title="식사류">
+          <RestrantList />
+        </Tab>
+        <Tab eventKey="two" title="간식류">
+          <DesertList />
+        </Tab>
+        <Tab eventKey="three" title="주류">
+          <DrinkList />
+        </Tab>
+        <Tab eventKey="four" title="추가">
+          {/* <ScheduleAdd /> */}
+        </Tab>
+      </Tabs>
+    </div>
   );
 }
 
