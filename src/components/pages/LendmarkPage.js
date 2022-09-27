@@ -2,8 +2,6 @@ import * as React from "react";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import { useState } from "react";
-// import RestrantList from "../Restrant/RestrantList";
-// import DesertList from "../Restrant/DesertList";
 import LendmarkList from "../lendmarks/LendmarkList";
 
 function LendmarkPage() {

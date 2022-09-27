@@ -1,6 +1,3 @@
-import ScheduleCard from "../ui/ScheduleCard";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 

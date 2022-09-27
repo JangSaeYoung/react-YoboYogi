@@ -1,4 +1,3 @@
-import classes from "./ScheduleList.module.css";
 import ScheduleItem from "./ScheduleItem";
 
 const DUMMY_DATA = [
