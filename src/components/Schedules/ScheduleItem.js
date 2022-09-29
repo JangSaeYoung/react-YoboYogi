@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
+// import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import { faTrash } from "@fortawesome/free-solid-svg-icons";
 
 function ScheduleItem(props) {
   return (
@@ -14,13 +15,14 @@ function ScheduleItem(props) {
       >
         {props.status}
       </div>
+
       <div className="col-10 d-flex bg-light align-items-center p-2 rounded-8">
         <div className="col-10 d-flex flex-column ">
           <h5>{props.address}</h5>
           <span>{props.time}</span>
         </div>
         <div className="col-2">
-          <FontAwesomeIcon icon={faAngleRight} />
+          <FontAwesomeIcon icon={faTrash} />
         </div>
       </div>
     </div>

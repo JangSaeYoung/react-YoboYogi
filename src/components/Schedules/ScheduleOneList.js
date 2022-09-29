@@ -1,6 +1,6 @@
 import ScheduleItem from "./ScheduleItem";
 
-function ScheduleList(props) {
+function ScheduleOneList(props) {
   return (
     <div className=" p-2 pm-10 overflow-scroll">
       {props.schedules &&
@@ -13,11 +13,10 @@ function ScheduleList(props) {
             title={schedule.title}
             time={schedule.time}
             address={schedule.title}
-            description={schedule.description}
           />
         ))}
     </div>
   );
 }
 
-export default ScheduleList;
+export default ScheduleOneList;
